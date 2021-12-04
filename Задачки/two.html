@@ -1,0 +1,34 @@
+
+<html>
+    <head>
+        <p>Первае задачка</p>
+    </head>
+    <body>
+        <meta charset="utf-8">
+        <script>
+            score = 0
+            output = 'Привет, вот тебе первая загадка, твой балл'+ ' ' + Number(score)
+            alert(output)
+            let onezagadka = prompt('Было шесть машин, две продали, сколько осталось?')
+            if (onezagadka == 4){
+                score = score + 1
+                twooutput = 'Ты угадал, твой балл равен' + ' ' + Number(score)
+                alert(twooutput)
+            }
+            else{
+                alert('Ты ошибся ответом')
+            }
+            let twozagadka = prompt('Назови год создания Р.Ф.')
+            if (twozagadka == 1991){
+                score = score + 1
+                twooutput = 'Ты угадал, твой балл равен' + ' ' + Number(score)
+                alert(twooutput)
+            }
+            else{
+                alert('Ты ошибся ответом')
+            }
+            threeoutput = 'Твой ответ:' + ' ' + Number(score)
+            alert(threeoutput)
+        </script>
+    </body>
+</html>
